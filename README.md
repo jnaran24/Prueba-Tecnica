@@ -1,2 +1,2 @@
 # Prueba-Tecnica
-Prueba técnica - Hojas A4
+Prueba tecnica - Imagenes en hojas A4
