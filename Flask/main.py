@@ -40,10 +40,10 @@ def upload_file():
             ancho_original  = documento.size[0] #Calculamos el ancho de cada documento
             altura_original = documento.size[1] #Calculamos el alto de cada documento
             if altura_original > ancho_original: #Si la altura es mayor que el ancho, la imagen es vertical
-                documento_final = Image.open("./images/plantilla1.jpg")
+                documento_final = Image.open("./templates/plantilla1.jpg")
                 reductorV(documento_final, documento, ancho_original, altura_original)
             else: #Si el ancho es mayor que la altura, la imagen es horizontal
-                documento_final = Image.open("./images/plantilla2.jpg")
+                documento_final = Image.open("./templates/plantilla2.jpg")
                 reductorH(documento_final, documento, ancho_original, altura_original)
             #return redirect(url_for("get_file", filename=filename))
         
